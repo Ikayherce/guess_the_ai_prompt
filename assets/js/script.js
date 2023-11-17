@@ -18,70 +18,70 @@ const questions = [
   {
     "question": "This is question B",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
     "correct": 0
   },
   {
     "question": "This is question C",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
-    "correct": 0
+    "correct": 2
   },
   {
     "question": "This is question D",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
-    "correct": 0
+    "correct": 2
   },
   {
     "question": "This is question E",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
-    "correct": 0
+    "correct": 3
   },
   {
     "question": "This is question F",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "This is question G",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
     "correct": 0
   },
   {
     "question": "This is question H",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
-    "correct": 0
+    "correct": 1
   }, 
   {
     "question": "This is question I",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "This is question J",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
-    "correct": 0
+    "correct": 2
   },
   {
     "question": "This is question K",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "answer4"
     ],
     "correct": 0
   },
@@ -90,7 +90,7 @@ const questions = [
     "answers": [
       "answer1", "answer2", "answer2", "answer4"
     ],
-    "correct": 0
+    "correct": 3
   }
 ]
 const quizLength = questions.length;
