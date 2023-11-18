@@ -16,7 +16,7 @@ const questions = [
     "correct": 1
   },
   {
-    "question": "This is question B",
+    "question": "Level 2",
     "answers": [
       "answer1", "answer2", "answer3", "answer4"
     ],
@@ -96,7 +96,9 @@ const questions = [
 const quizLength = questions.length;
 function loadQuestion(questionNumber) {
   question.innerText = questions[questionNumber].question;
+
 }
+
 function loadAnswers(questionNumber) {
   answer1.innerText = questions[questionNumber].answers[0];
   answer2.innerText = questions[questionNumber].answers[1];
@@ -112,7 +114,7 @@ function checkAnswer(answerNumber) {
     score.innerText = scoreAmount;
   }
   // after we increment the questionNumber
-  questionNumber ++;
+  questionNumber ++;    
   // we check if it is the end of the quiz ( have we run out of questions)
   if (questionNumber === quizLength) {
     alert('end of quiz')
@@ -121,6 +123,7 @@ function checkAnswer(answerNumber) {
     // if not we load the next question
     loadQuestion(questionNumber);
     loadAnswers(questionNumber);
+
   }
 }
 function startQuiz() {
