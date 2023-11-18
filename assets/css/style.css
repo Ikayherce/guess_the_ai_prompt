@@ -10,3 +10,53 @@
    list-style-type: none;
    padding: 50px;
  }
+
+ button {
+   border: 2px solid #ffffff;
+   margin: 8px 0;
+   border-radius: 2px;
+   padding: 12px 20px;
+   font-family: 'Poppins', sans-serif;
+   background-color:rgba(238,174,202,1);
+   color:#ffffff;
+ /*#answer1 {
+   border: 2px solid #ffffff;
+   margin: 8px 0;
+   border-radius: 2px;
+   padding: 12px 20px;
+   font-family: 'Poppins', sans-serif;
+   background-color:rgba(238,174,202,1);
+   color:#ffffff;
+ }
+
+ #answer2 {
+   border: 2px solid #ffffff;
+   margin: 8px 0;
+   border-radius: 2px;
+   padding: 12px 20px;
+   font-family: 'Poppins', sans-serif;
+   background-color:rgba(191,181,218,1);
+   color:#ffffff;
+ }
+
+ #answer3 {
+   border: 2px solid #ffffff;
+   margin: 8px 0;
+   border-radius: 2px;
+   padding: 12px 20px;
+   font-family: 'Poppins', sans-serif;
+   background-color:rgba(220,177,208,1);
+   color:#ffffff;
+ }
+
+ #answer4 {
+   border: 2px solid #ffffff;
+   margin: 8px 0;
+   border-radius: 2px;
+   padding: 12px 20px;
+   font-family: 'Poppins', sans-serif;
+   background-color:rgba(148,187,233,1);
+   color:#ffffff;
+ }*/
+
+ 
