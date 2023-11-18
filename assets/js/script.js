@@ -9,9 +9,9 @@ let questionNumber = 0;
 let scoreAmount = 0
 const questions = [
   {
-    "question": "This is question A",
+    "question": "Level 1",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "Capybara flying", "Capybara dreams of flying like a bird", "Capybara chases birds", "Capybara flies while hungry"
     ],
     "correct": 1
   },

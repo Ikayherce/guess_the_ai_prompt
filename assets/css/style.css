@@ -32,5 +32,13 @@
 
  button:hover {
    background-color:rgba(192,186,230,1);
-   transition: 0.4s;
+   transition: 0.2s;
+}
+
+img {
+  padding: 20px;
+  display:flex;
+  margin: auto;
+  
+
 }
