@@ -93,11 +93,15 @@ const questions = [
     "correct": 3
   }
 ]
+ 
 const quizLength = questions.length;
 function loadQuestion(questionNumber) {
   question.innerText = questions[questionNumber].question;
 
 }
+
+ 
+
 
 function loadAnswers(questionNumber) {
   answer1.innerText = questions[questionNumber].answers[0];
