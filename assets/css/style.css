@@ -3,6 +3,8 @@
    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(220,177,208,1) 20%, rgba(191,181,218,1) 52%, rgba(192,186,230,1) 57%, rgba(148,187,233,1) 100%);
    color: #ffffff;
    cursor: url('../../icons8-wand-64.2.png'), auto;
+   max-width: 100%;
+   max-height: 100%; 
    /*cursor: pointer;
    cursor: url(../icons8-mouse-48.png)*/
  }
@@ -28,17 +30,22 @@
    color:#ffffff;
    /*cursor: pointer;*/
    cursor: url('../../icons8-wand-64.2.png'), auto;
+   align-items:center;
+   justify-content:center;
  }
 
  button:hover {
    background-color:rgba(192,186,230,1);
    transition: 0.2s;
 }
+  img {
+    padding: 20px;
+    display:flex;
+    margin: auto;
+}
 
-img {
-  padding: 20px;
-  display:flex;
-  margin: auto;
-  
+/* Media Queries */ 
 
+@media (max-width: 414px) {
+ 
 }
