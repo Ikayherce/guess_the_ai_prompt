@@ -113,10 +113,7 @@ function checkAnswer(answerNumber) {
   alert('well done! that is correct') 
   if (answerNumber === correctAnswer) {
     score.innerText = scoreAmount;
-  } else {
-    alert(`you can't be right every time! incorrect`);
-}
-
+  } 
    // after we increment the questionNumber
   questionNumber ++;
   // we check if it is the end of the quiz ( have we run out of questions)
