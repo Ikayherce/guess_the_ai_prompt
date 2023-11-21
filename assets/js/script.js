@@ -11,88 +11,112 @@ let scoreAmount = 0
 const questions = [
 
   {
-    "question": "Level 1",
+    "question": "Question 1",
     "answers": [
       "Capybara flying", "Capybara dreams of flying like a bird", "Capybara chases birds", "Capybara flies while hungry"
     ],
     "correct": 1
   },
   {
-    "question": "Level 2",
+    "question": "Question 2",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "rat is coding", "rat creates a dating app profile", "rat plays sims on the computer", "rat is a millenial"
     ],
     "correct": 0
   },
   {
-    "question": "This is question C",
+    "question": "Question 3",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "answer1", "answer2", "kitten sorcerer makes a neon pink potion that will save the planet  ", "answer4"
     ],
     "correct": 2
   },
   {
-    "question": "This is question D",
+    "question": "Question 4",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "answer1", "answer2", "a stained glass window depicting a possum with a halo", "answer4"
     ],
     "correct": 2
   },
   {
-    "question": "This is question E",
+    "question": "Question 5",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "answer1", "answer2", "answer3", "raccoon with glasses psychoanalizes another raccoon. painting in the style of Anders Zorn"
     ],
     "correct": 3
   },
   {
-    "question": "This is question F",
+    "question": "Question 6",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "answer1", "woman finds comfort in the embrace of a giant fluffy rabbit in a the neon lights of a big city in the night, pastel colors. realist digital ar", "answer3", "answer4"
     ],
     "correct": 1
   },
   {
-    "question": "This is question G",
+    "question": "Question 7",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "painting by vermeer the white greyhound with the pearl earring", "answer2", "answer3", "answer4"
     ],
     "correct": 0
   },
   {
-    "question": "This is question H",
+    "question": "Question 8",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "answer1", "praying mantis doing aerobics in 1980s style training leotard digital art", "answer3", "answer4"
     ],
     "correct": 1
   }, 
   {
-    "question": "This is question I",
+    "question": "Question 9",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "answer1", "digital art of a woman hugging a building in a city where all buildings are fluffy and are actually big gentle animals", "answer3", "answer4"
     ],
     "correct": 1
   },
   {
-    "question": "This is question J",
+    "question": "Question 10",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "answer1", "answer2", "digital art depicting a couple of mice living in a barbie house", "answer4"
     ],
     "correct": 2
   },
   {
-    "question": "This is question K",
+    "question": "Question 11",
     "answers": [
       "answer1", "answer2", "answer3", "answer4"
     ],
     "correct": 0
   },
   {
-    "question": "This is question L",
+    "question": "Question 12",
     "answers": [
       "answer1", "answer2", "answer2", "answer4"
     ],
     "correct": 3
+  }, 
+
+  {
+    "question": "Question 13",
+    "answers": [
+      "answer1", "answer2", "answer2", "answer4"
+    ],
+    "correct": 2
+  },
+
+  {
+    "question": "Question 14",
+    "answers": [
+      "answer1", "answer2", "answer2", "answer4"
+    ],
+    "correct": 0
+  },
+
+  {
+    "question": "Question 15",
+    "answers": [
+      "answer1", "answer2", "answer2", "answer4"
+    ],
+    "correct": 2
   }
 ]
 const quizLength = questions.length;
