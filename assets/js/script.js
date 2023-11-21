@@ -109,11 +109,13 @@ function checkAnswer(answerNumber) {
   // we check what the correct answer is for this question
   let correctAnswer = questions[questionNumber].correct
   // if correct we increment the score by 1
-  scoreAmount++;
-  alert('well done! that is correct') 
+  scoreAmount++; 
   if (answerNumber === correctAnswer) {
     score.innerText = scoreAmount;
-  } 
+    alert('well done! that is correct')
+  } else {
+    alert(`You weren't right this time. Keep trying!`);
+}
    // after we increment the questionNumber
   questionNumber ++;
   // we check if it is the end of the quiz ( have we run out of questions)
