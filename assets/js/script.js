@@ -5,9 +5,11 @@ const answer2 = document.getElementById('answer2');
 const answer3 = document.getElementById('answer3');
 const answer4 = document.getElementById('answer4');
 const score = document.getElementById('score');
+
 let questionNumber = 0;
 let scoreAmount = 0
 const questions = [
+
   {
     "question": "Level 1",
     "answers": [
@@ -93,16 +95,10 @@ const questions = [
     "correct": 3
   }
 ]
- 
 const quizLength = questions.length;
 function loadQuestion(questionNumber) {
   question.innerText = questions[questionNumber].question;
-
 }
-
- 
-
-
 function loadAnswers(questionNumber) {
   answer1.innerText = questions[questionNumber].answers[0];
   answer2.innerText = questions[questionNumber].answers[1];
@@ -114,11 +110,15 @@ function checkAnswer(answerNumber) {
   let correctAnswer = questions[questionNumber].correct
   // if correct we increment the score by 1
   scoreAmount++;
+  alert('well done! that is correct') 
   if (answerNumber === correctAnswer) {
     score.innerText = scoreAmount;
-  }
+  }else {
+    alert(`you can't be right every time! incorrect`);
+}
+
   // after we increment the questionNumber
-  questionNumber ++;    
+  questionNumber ++;
   // we check if it is the end of the quiz ( have we run out of questions)
   if (questionNumber === quizLength) {
     alert('end of quiz')
@@ -127,7 +127,6 @@ function checkAnswer(answerNumber) {
     // if not we load the next question
     loadQuestion(questionNumber);
     loadAnswers(questionNumber);
-
   }
 }
 function startQuiz() {
