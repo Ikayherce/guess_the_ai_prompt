@@ -27,42 +27,42 @@ const questions = [
   {
     "question": "Question 3",
     "answers": [
-      "kitten cat makes potion to rule the world", "kitten tries to make his own eye cream ", "kitten sorcerer makes a potion that will save the planet", "kitten gets too invested in science homework"
+      "kitten makes potion to rule the world", "kitten tries to make his own eye cream ", "kitten sorcerer makes a potion that will save the planet", "kitten gets too invested in science homework"
     ],
     "correct": 2
   },
   {
     "question": "Question 4",
     "answers": [
-      "a stained glass window at the rat church", "a stained glass window depicting a holy rat", "a stained glass window depicting a possum with a halo", "a stained glass window depicting the rat messiah"
+      "a stained glass window at the rat church", "a stained glass window depicting a holy rat", "a stained glass window depicting a possum with a halo", "a stained glass window depicting the possum messiah"
     ],
     "correct": 2
   },
   {
     "question": "Question 5",
     "answers": [
-      "raccoon writer convinces other raccoon that his book is good", "raccoon philosopher explains his theories to other raccoon", "raccoon with glasses discusses politics with other raccoon", "raccoon with glasses psychoanalizes another raccoon. painting in the style of Anders Zorn"
+      "raccoon writer convinces other raccoon that his book is good", "raccoon philosopher discusses his theories", "raccoons discussing politics", "raccoon with glasses psychoanalizes another raccoon."
     ],
     "correct": 3
   },
   {
     "question": "Question 6",
     "answers": [
-      "woman is lured by evil neon rabbit in the city of sin", "woman finds comfort in the embrace of a giant fluffy rabbit in the neon lights of a big city.", "woman hugs her cursed boyfriend who was transformed into a neon rabbit", "giant neon rabbit is a superhero that protects a defenseless young woman"
+      "woman is lured by evil neon rabbit in the city of sin", "woman finds comfort in the embrace of a giant fluffy rabbit in the neon lights of a big city.", "woman hugs her cursed boyfriend who was transformed into a neon rabbit", "rabbitman the superhero protects a defenseless young woman"
     ],
     "correct": 1
   },
   {
     "question": "Question 7",
     "answers": [
-      "painting by vermeer the white greyhound with the pearl earring", "answer2", "answer3", "answer4"
+      "the white greyhound with the pearl earring", "portrait of an upper class white greyhound", "the fairest greyhound in the land", "white greyhound feels melancholy"
     ],
     "correct": 0
   },
   {
     "question": "Question 8",
     "answers": [
-      "answer1", "praying mantis doing aerobics in 1980s style training leotard digital art", "answer3", "answer4"
+      "praying mantis after eating husband", "praying mantis doing aerobics", "praying mantis dances salsa", "praying mantis having a good day"
     ],
     "correct": 1
   }, 
@@ -106,7 +106,7 @@ const questions = [
   {
     "question": "Question 14",
     "answers": [
-      "medieval painting of a dragon enfuriated because he doesn't understand javascript", "dragon is too old to understand computers", "dragon complaining after stepping barefoot on a lego piece", "dragon cursing the long customer service telephone queues"
+      "dragon enfuriated because he doesn't understand javascript", "dragon is too old to understand computers", "dragon steps barefoot on a lego piece", "dragon cursing the long customer service phone queues"
     ],
     "correct": 0
   },
