@@ -1,10 +1,12 @@
 //getters
-const question = document.getElementById('question');
+//const question = document.getElementById('question');
+const questionImage = document.getElementById('question');
 const answer1 = document.getElementById('answer1');
 const answer2 = document.getElementById('answer2');
 const answer3 = document.getElementById('answer3');
 const score = document.getElementById('score');
 // not working : const incorrectGuesses = document.getElementById('incorrect')//
+const incorrectGuesses = document.getElementById('incorrect');
 let correctSound = new Audio('../../magicsound.mp3')
 let incorrectSound = new Audio('../../failsound.mp3 ')
 
@@ -126,7 +128,8 @@ const questions = [
 const quizLength = questions.length;
 
 function loadQuestion(questionNumber) {
-  question.innerText = questions[questionNumber].question;
+  //question.innerText = questions[questionNumber].question;
+  questionImage.src = questions[questionNumber].image;
 }
 
 function loadAnswers(questionNumber) {
@@ -153,6 +156,7 @@ function checkAnswer(answerNumber) {
     incorrectSound.play();
   //not working  incorrectGuesses++;
   //not working incorrectGuesses.innerText = scoreAmount;
+
 
     
 }
