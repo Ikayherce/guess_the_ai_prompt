@@ -39,63 +39,63 @@ const questions = [
     "correct": 1
   },
   {
-    "question": "../assets/images/question4.png",
+    "question": 'assets/images/question4.png',
     "answers": [
       "a stained glass window at the rat church", "a stained glass window depicting a holy rat", "a stained glass window depicting a possum with a halo"
     ],
     "correct": 2
   },
   {
-    "question": "../assets/images/question5.png",
+    "question": 'assets/images/question5.png',
     "answers": [
      "raccoon philosopher discusses his theories", "raccoons discussing politics", "raccoon with glasses psychoanalizes another raccoon."
     ],
     "correct": 2
   },
   {
-    "question": "../assets/images/question6.png",
+    "question": 'assets/images/question6.png',
     "answers": [
       "woman is lured by evil neon rabbit in the city of sin", "woman finds comfort in the embrace of a giant rabbit in the neon lights of a big city.", "rabbitman the superhero protects a defenseless young woman"
     ],
     "correct": 1
   },
   {
-    "question": "../assets/images/question7.png",
+    "question": 'assets/images/question7.png',
     "answers": [
       "the white greyhound with the pearl earring", "portrait of an upper class white greyhound", "the fairest greyhound in the land"
     ],
     "correct": 0
   },
   {
-    "question": "../assets/images/question8.png",
+    "question": 'assets/images/question8.png',
     "answers": [
       "praying mantis happy after eating husband", "praying mantis doing aerobics", "praying mantis dances salsa"
     ],
     "correct": 1
   }, 
   {
-    "question": "../assets/images/question9.png",
+    "question": 'assets/images/question9.png',
     "answers": [
       "woman hugging a building that is actually a big gentle animal", "woman hugging new species of pokemon", "woman hugging new pet in the year 3000"
     ],
     "correct": 0
   },
   {
-    "question": "../assets/images/question10.png",
+    "question": 'assets/images/question10.png',
     "answers": [
       "ragdoll mice in a doll house", "puppet show with rats", "a couple of mice living in a barbie house"
     ],
     "correct": 2
   },
   {
-    "question": "../assets/images/question11.png",
+    "question": 'assets/images/question11.png',
     "answers": [
       "times square but instead of people there are white rabbits", "futuristic Alice in Wonderland", "white rabbit gang takes over New York"
     ],
     "correct": 0
   },
   {
-    "question": "../assets/images/question12.png",
+    "question": 'assets/images/question12.png',
     "answers": [
       "meerkats stand in line to buy lottery tickets", "meerkats are impatient to get cigarretes", "meerkats stand in line to pay at the meerkat supermarket"
     ],
@@ -103,7 +103,7 @@ const questions = [
   }, 
 
   {
-    "question": "../assets/images/question13.png",
+    "question": 'assets/images/question13.png',
     "answers": [
       "evil corrupt mayor of otter city", "Benedict Cumberbatch as an otter", " oil painting of an otter dressed as a businessman"
     ],
@@ -111,7 +111,7 @@ const questions = [
   },
 
   {
-    "question": "../assets/images/question14.png",
+    "question": 'assets/images/question14.png',
     "answers": [
       "dragon enfuriated because he doesn't understand javascript", "dragon steps barefoot on a lego piece", "dragon cursing the long customer service phone queues"
     ],
@@ -119,7 +119,7 @@ const questions = [
   },
 
   {
-    "question": "../assets/images/question15.png",
+    "question": 'assets/images/question15.png',
     "answers": [
      "sacred chicken in Egypt", "royal teal chicken with ancient egyptian jewels supervising the construction of pyramids", "the rare Egyptian teal chicken, now extinct."
     ],
