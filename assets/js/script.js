@@ -17,21 +17,21 @@ let scoreAmount = 0
 const questions = [
 
   {
-    "image": '../assets/images/question1.png',
+    "image": 'assets/images/question1.png',
     "answers": [
       "Capybara flying", "Capybara dreams of flying like a bird", "Capybara chases birds"
     ],
     "correct": 1
   },
   {
-    "image": "../assets/images/question2.png",
+    "image": 'assets/images/question2.png',
     "answers": [
       "rat is coding", "rat creates a dating app profile", "rat plays sims on the computer"
     ],
     "correct": 0
   },
   {
-    "question": "../assets/images/question3.png",
+    "question": 'assets/images/question3.png',
     "answers": [
       "kitten makes potion to rule the world", "kitten sorcerer makes a potion that will save the planet", "kitten gets too invested in science homework"
     ],
