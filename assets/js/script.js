@@ -1,5 +1,5 @@
 //getters
-//const question = document.getElementById('question');
+const question = document.getElementById('question');
 const questionImage = document.getElementById('question');
 const answer1 = document.getElementById('answer1');
 const answer2 = document.getElementById('answer2');
@@ -136,8 +136,8 @@ function loadAnswers(questionNumber) {
   answer1.innerText = questions[questionNumber].answers[0];
   answer2.innerText = questions[questionNumber].answers[1];
   answer3.innerText = questions[questionNumber].answers[2];
-  answer4.innerText = questions[questionNumber].answers[3];
 }
+
 function checkAnswer(answerNumber) {
   // we check what the correct answer is for this question
   let correctAnswer = questions[questionNumber].correct
