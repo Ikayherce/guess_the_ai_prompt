@@ -5,8 +5,6 @@
    cursor: url('../../icons8-wand-64.2.png'), auto;
    max-width: 100%;
    max-height: 100%; 
-   /*cursor: pointer;
-   cursor: url(../icons8-mouse-48.png)*/
  }
 
 
@@ -15,8 +13,6 @@
    justify-content: space-evenly;
    list-style-type: none;
    padding: 50px;
-   /*cursor: pointer;
-   cursor: url('../icons8-mouse-48.png')*/
    cursor: url('../../icons8-wand-64.2.png'), auto;
  }
 
@@ -28,7 +24,6 @@
    font-family: 'Poppins', sans-serif;
    background-color:rgba(238,174,202,1);
    color:#ffffff;
-   /*cursor: pointer;*/
    cursor: url('../../icons8-wand-64.2.png'), auto;
    align-items:center;
    justify-content:center;
