@@ -27,28 +27,28 @@ const questions = [
   {
     "question": "Question 3",
     "answers": [
-      "answer1", "answer2", "kitten sorcerer makes a neon pink potion that will save the planet  ", "answer4"
+      "kitten cat makes potion to rule the world", "kitten tries to make his own eye cream ", "kitten sorcerer makes a potion that will save the planet", "kitten gets too invested in science homework"
     ],
     "correct": 2
   },
   {
     "question": "Question 4",
     "answers": [
-      "answer1", "answer2", "a stained glass window depicting a possum with a halo", "answer4"
+      "a stained glass window at the rat church", "a stained glass window depicting a holy rat", "a stained glass window depicting a possum with a halo", "a stained glass window depicting the rat messiah"
     ],
     "correct": 2
   },
   {
     "question": "Question 5",
     "answers": [
-      "answer1", "answer2", "answer3", "raccoon with glasses psychoanalizes another raccoon. painting in the style of Anders Zorn"
+      "raccoon writer convinces other raccoon that his book is good", "raccoon philosopher explains his theories to other raccoon", "raccoon with glasses discusses politics with other raccoon", "raccoon with glasses psychoanalizes another raccoon. painting in the style of Anders Zorn"
     ],
     "correct": 3
   },
   {
     "question": "Question 6",
     "answers": [
-      "answer1", "woman finds comfort in the embrace of a giant fluffy rabbit in a the neon lights of a big city in the night, pastel colors. realist digital ar", "answer3", "answer4"
+      "woman is lured by evil neon rabbit in the city of sin", "woman finds comfort in the embrace of a giant fluffy rabbit in the neon lights of a big city.", "woman hugs her cursed boyfriend who was transformed into a neon rabbit", "giant neon rabbit is a superhero that protects a defenseless young woman"
     ],
     "correct": 1
   },
@@ -69,28 +69,28 @@ const questions = [
   {
     "question": "Question 9",
     "answers": [
-      "answer1", "digital art of a woman hugging a building in a city where all buildings are fluffy and are actually big gentle animals", "answer3", "answer4"
+      "woman hugging gentle monster", "woman hugging a building that is actually a big gentle animals", "woman hugging new species of pokemon", "woman hugging new pet in the year 3000"
     ],
     "correct": 1
   },
   {
     "question": "Question 10",
     "answers": [
-      "answer1", "answer2", "digital art depicting a couple of mice living in a barbie house", "answer4"
+      "ragdoll mice in a doll house", "puppet show with rats", "a couple of mice living in a barbie house", "a couple of mice enjoy their new pink house"
     ],
     "correct": 2
   },
   {
     "question": "Question 11",
     "answers": [
-      "times square but instead of people there are white rabbits", "answer2", "answer3", "answer4"
+      "times square but instead of people there are white rabbits", "futuristic Alice in Wonderland", "the apocalypse in which white rabbits are the only ones left in the world", "white rabbit gang takes over New York"
     ],
     "correct": 0
   },
   {
     "question": "Question 12",
     "answers": [
-      "answer1", "answer2", "answer3", "meerkats stand in line to pay at the meerkat supermarket"
+      "meerkats stand in line to buy lottery tickets", "meerkats are impatient to get cigarretes", "meerkats in a capitalist dystopy", "meerkats stand in line to pay at the meerkat supermarket"
     ],
     "correct": 3
   }, 
@@ -98,7 +98,7 @@ const questions = [
   {
     "question": "Question 13",
     "answers": [
-      "answer1", "answer2", " oil painting of an otter dressed as a businessman", "answer4"
+      "evil corrupt mayor of otter city", "Benedict Cumberbatch as an otter", " oil painting of an otter dressed as a businessman", "portrait of middle aged upper class otter male"
     ],
     "correct": 2
   },
@@ -106,7 +106,7 @@ const questions = [
   {
     "question": "Question 14",
     "answers": [
-      "medieval painting of a dragon enfuriated because he doesn't understand javascript", "answer2", "answer3", "answer4"
+      "medieval painting of a dragon enfuriated because he doesn't understand javascript", "dragon is too old to understand computers", "dragon complaining after stepping barefoot on a lego piece", "dragon cursing the long customer service telephone queues"
     ],
     "correct": 0
   },
@@ -114,7 +114,7 @@ const questions = [
   {
     "question": "Question 15",
     "answers": [
-      "answer1", "answer2", "ancient engraving of royal teal chicken with ancient egyptian jewels supervising the construction of the pastel color pyramids", "answer4"
+      "chicken is a tourist in Egypt", "sacred chicken in Egypt", "royal teal chicken with ancient egyptian jewels supervising the construction of pyramids", "the rare Egyptian teal chicken, now extinct."
     ],
     "correct": 2
   }
