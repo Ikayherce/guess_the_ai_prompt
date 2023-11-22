@@ -29,7 +29,7 @@ const questions = [
     "answers": [
       "kitten makes potion to rule the world", "kitten sorcerer makes a potion that will save the planet", "kitten gets too invested in science homework"
     ],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Question 4",
