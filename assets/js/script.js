@@ -158,10 +158,11 @@ function checkAnswer(answerNumber) {
     // audio effect for incorrect sound
     incorrectSound.play();
   }
+}
 
 function startQuiz() {
   loadQuestion(questionNumber);
   loadAnswers(questionNumber);
 }
-}
+
 startQuiz();
