@@ -5,8 +5,7 @@ const answer1 = document.getElementById('answer1');
 const answer2 = document.getElementById('answer2');
 const answer3 = document.getElementById('answer3');
 const score = document.getElementById('score');
-// not working : const incorrectGuesses = document.getElementById('incorrect')//
-const incorrectGuesses = document.getElementById('incorrect');
+const incorrectGuessesDisplay = document.getElementById('incorrect'); 
 let correctSound = new Audio('../../magicsound.mp3')
 let incorrectSound = new Audio('../../failsound.mp3 ')
 
@@ -14,6 +13,8 @@ let incorrectSound = new Audio('../../failsound.mp3 ')
 
 let questionNumber = 0;
 let scoreAmount = 0
+let incorrectGuesses = 0; 
+
 const questions = [
 
   {
@@ -150,12 +151,12 @@ function checkAnswer(answerNumber) {
   //audio effect for correct sound
     correctSound.play();
   } else {
+  //update incorrect guess tally
+    incorrectGuessesDisplay.innerText = incorrectGuesses;
   //feedback to the user that the answer is wrong
     alert(`You weren't right this time. Keep trying!`);
   //audio effect for incorrect answer
     incorrectSound.play();
-  //not working  incorrectGuesses++;
-  //not working incorrectGuesses.innerText = scoreAmount;
 
 
     
