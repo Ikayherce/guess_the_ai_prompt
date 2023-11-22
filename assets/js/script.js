@@ -5,7 +5,9 @@ const answer2 = document.getElementById('answer2');
 const answer3 = document.getElementById('answer3');
 const score = document.getElementById('score');
 //code below to try adding sound when answer is correct/
-let mySound = new Audio('../../magicsound.mp3')
+let correctSound = new Audio('../../magicsound.mp3')
+let incorrectSound = new Audio('../../failsound.mp3 ')
+
 
 
 let questionNumber = 0;
@@ -142,9 +144,10 @@ function checkAnswer(answerNumber) {
     score.innerText = scoreAmount;
     alert('well done! that is correct')
     //code below to try adding sound when answer is correct//
-    mySound.play()
+    correctSound.play();
   } else {
     alert(`You weren't right this time. Keep trying!`);
+    incorrectSound.play()
 }
    // after we increment the questionNumber
   questionNumber ++;
