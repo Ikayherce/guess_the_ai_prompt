@@ -5,7 +5,7 @@ const answer1 = document.getElementById('answer1');
 const answer2 = document.getElementById('answer2');
 const answer3 = document.getElementById('answer3');
 const score = document.getElementById('score');
-const incorrectGuessesDisplay = document.getElementById('incorrect'); 
+//const incorrectGuessesDisplay = document.getElementById('incorrect'); 
 let correctSound = new Audio('../../magicsound.mp3')
 let incorrectSound = new Audio('../../failsound.mp3 ')
 
@@ -151,8 +151,8 @@ function checkAnswer(answerNumber) {
     correctSound.play();
   } else {
   //if incorrect incorrect increment incorrect guesses
-  incorrectGuesses++;
-  incorrectGuessesDisplay.innerText = incorrectGuesses; 
+  //incorrectGuesses++;
+  //incorrectGuessesDisplay.innerText = incorrectGuesses; 
   //alert for incorrect answer
   alert(`You weren't right this time. Keep trying!`);
   //audio effect for incorrect sound
