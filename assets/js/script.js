@@ -140,24 +140,24 @@ function loadAnswers(questionNumber) {
 
 function checkAnswer(answerNumber) {
   // we check what the correct answer is for this question
-  let correctAnswer = questions[questionNumber].correct
+  let correctAnswer = questions[questionNumber].correct;
   // if correct we increment the score by 1
-  scoreAmount++; 
+  scoreAmount++;
   if (answerNumber === correctAnswer) {
     score.innerText = scoreAmount;
-  //feedback to the user that the answer is correct
-    alert('well done! that is correct')
-  //audio effect for correct sound
+    // feedback to the user that the answer is correct
+    alert('Well done! That is correct');
+    // audio effect for correct sound
     correctSound.play();
   } else {
-  //if incorrect incorrect increment incorrect guesses
-  incorrectGuesses++;
-  incorrectGuessesDisplay.innerText = incorrectGuesses; 
-  //alert for incorrect answer
-  alert(`You weren't right this time. Keep trying!`);
-  //audio effect for incorrect sound
-  incorrectSound.play();
-}
+    // if incorrect, increment incorrect guesses
+    incorrectGuesses++;
+    incorrectGuessesDisplay.innerText = incorrectGuesses;
+    // alert for incorrect answer
+    alert(`You weren't right this time. Keep trying!`);
+    // audio effect for incorrect sound
+    incorrectSound.play();
+  }
 
 function startQuiz() {
   loadQuestion(questionNumber);
