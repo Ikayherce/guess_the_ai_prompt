@@ -31,70 +31,70 @@ const questions = [
     "correct": 0
   },
   {
-    "question": "Question 3",
+    "question": "../assets/images/question3.png",
     "answers": [
       "kitten makes potion to rule the world", "kitten sorcerer makes a potion that will save the planet", "kitten gets too invested in science homework"
     ],
     "correct": 1
   },
   {
-    "question": "Question 4",
+    "question": "../assets/images/question4.png",
     "answers": [
       "a stained glass window at the rat church", "a stained glass window depicting a holy rat", "a stained glass window depicting a possum with a halo"
     ],
     "correct": 2
   },
   {
-    "question": "Question 5",
+    "question": "../assets/images/question5.png",
     "answers": [
      "raccoon philosopher discusses his theories", "raccoons discussing politics", "raccoon with glasses psychoanalizes another raccoon."
     ],
     "correct": 2
   },
   {
-    "question": "Question 6",
+    "question": "../assets/images/question6.png",
     "answers": [
       "woman is lured by evil neon rabbit in the city of sin", "woman finds comfort in the embrace of a giant rabbit in the neon lights of a big city.", "rabbitman the superhero protects a defenseless young woman"
     ],
     "correct": 1
   },
   {
-    "question": "Question 7",
+    "question": "../assets/images/question7.png",
     "answers": [
       "the white greyhound with the pearl earring", "portrait of an upper class white greyhound", "the fairest greyhound in the land"
     ],
     "correct": 0
   },
   {
-    "question": "Question 8",
+    "question": "../assets/images/question8.png",
     "answers": [
       "praying mantis happy after eating husband", "praying mantis doing aerobics", "praying mantis dances salsa"
     ],
     "correct": 1
   }, 
   {
-    "question": "Question 9",
+    "question": "../assets/images/question9.png",
     "answers": [
       "woman hugging a building that is actually a big gentle animal", "woman hugging new species of pokemon", "woman hugging new pet in the year 3000"
     ],
     "correct": 0
   },
   {
-    "question": "Question 10",
+    "question": "../assets/images/question10.png",
     "answers": [
       "ragdoll mice in a doll house", "puppet show with rats", "a couple of mice living in a barbie house"
     ],
     "correct": 2
   },
   {
-    "question": "Question 11",
+    "question": "../assets/images/question11.png",
     "answers": [
       "times square but instead of people there are white rabbits", "futuristic Alice in Wonderland", "white rabbit gang takes over New York"
     ],
     "correct": 0
   },
   {
-    "question": "Question 12",
+    "question": "../assets/images/question12.png",
     "answers": [
       "meerkats stand in line to buy lottery tickets", "meerkats are impatient to get cigarretes", "meerkats stand in line to pay at the meerkat supermarket"
     ],
@@ -102,7 +102,7 @@ const questions = [
   }, 
 
   {
-    "question": "Question 13",
+    "question": "../assets/images/question13.png",
     "answers": [
       "evil corrupt mayor of otter city", "Benedict Cumberbatch as an otter", " oil painting of an otter dressed as a businessman"
     ],
@@ -110,7 +110,7 @@ const questions = [
   },
 
   {
-    "question": "Question 14",
+    "question": "../assets/images/question14.png",
     "answers": [
       "dragon enfuriated because he doesn't understand javascript", "dragon steps barefoot on a lego piece", "dragon cursing the long customer service phone queues"
     ],
@@ -118,7 +118,7 @@ const questions = [
   },
 
   {
-    "question": "Question 15",
+    "question": "../assets/images/question15.png",
     "answers": [
      "sacred chicken in Egypt", "royal teal chicken with ancient egyptian jewels supervising the construction of pyramids", "the rare Egyptian teal chicken, now extinct."
     ],
