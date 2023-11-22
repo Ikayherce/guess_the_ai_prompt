@@ -158,6 +158,17 @@ function checkAnswer(answerNumber) {
     // audio effect for incorrect sound
     incorrectSound.play();
   }
+  // after we increment the questionNumber
+  questionNumber ++;
+  // we check if it is the end of the quiz ( have we run out of questions)
+  if (questionNumber === quizLength) {
+    alert('end of quiz')
+    // put a end of quiz and score thing here
+  } else {
+    // if not we load the next question
+    loadQuestion(questionNumber);
+    loadAnswers(questionNumber);
+  }
 }
 
 function startQuiz() {
