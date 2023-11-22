@@ -83,14 +83,14 @@ const questions = [
   {
     "question": "Question 11",
     "answers": [
-      "answer1", "answer2", "answer3", "answer4"
+      "times square but instead of people there are white rabbits", "answer2", "answer3", "answer4"
     ],
     "correct": 0
   },
   {
     "question": "Question 12",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "answer3", "meerkats stand in line to pay at the meerkat supermarket"
     ],
     "correct": 3
   }, 
@@ -98,7 +98,7 @@ const questions = [
   {
     "question": "Question 13",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", " oil painting of an otter dressed as a businessman", "answer4"
     ],
     "correct": 2
   },
@@ -106,7 +106,7 @@ const questions = [
   {
     "question": "Question 14",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "medieval painting of a dragon enfuriated because he doesn't understand javascript", "answer2", "answer3", "answer4"
     ],
     "correct": 0
   },
@@ -114,7 +114,7 @@ const questions = [
   {
     "question": "Question 15",
     "answers": [
-      "answer1", "answer2", "answer2", "answer4"
+      "answer1", "answer2", "ancient engraving of royal teal chicken with ancient egyptian jewels supervising the construction of the pastel color pyramids", "answer4"
     ],
     "correct": 2
   }
