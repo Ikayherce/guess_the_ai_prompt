@@ -17,20 +17,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Title-->
     <title>Quiz: Guess the AI prompt</title>
-    
 </head>
 <body>
-    <div class="container">
         <h1>Can you guess the AI prompt?</h1>
-        <img id="question" src="assets/images/question1.png">
-        <button id="answer1" onclick="checkAnswer(0)"></button>
-        <button id="answer2" onclick="checkAnswer(1)"></button>
-        <button id="answer3" onclick="checkAnswer(2)"></button>
-        <hr>
-        <div>Score: <span id="score">0</span></div>
-        <div>Incorrect guesses: <span id="incorrect">0</span></div>
-    
-      </div>
+        <!--Section below is code taken from youtube tutorial https://www.youtube.com/watch?v=1ydfKDwsYbU-->
+        <section class="container section">
+            <div class="row">
+                <div class="col s12 l6 offset-l3">
+                    <form class="myform" name="id" onsubmit="submitted(event)">
+                    <h4 class="center-align white-text">Enter your username</h4>
+                    <div class="input-field">
+                        <i class="material-icons white-text prefix">account_box</i>
+                        <input type="text" class="white-text" id="name">
+                        <label for="name">Name Here</label>
+                        <p class="center"><button type="submit" class="btn blue" 
+                            onclick="this.style.display='none'">Submit Name</button></p>
+                        </div>
+                    <p class="center"><a href="quiz.html" class="btn blue">Let's Start</a></p>
+                    
+                </form>
+                </div>
+            </div>
+        </section>
       <script src="assets/js/script.js"></script>
 </body>
 </html>
