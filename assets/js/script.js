@@ -3,8 +3,10 @@ const question = document.getElementById('question');
 const answer1 = document.getElementById('answer1');
 const answer2 = document.getElementById('answer2');
 const answer3 = document.getElementById('answer3');
-const answer4 = document.getElementById('answer4');
 const score = document.getElementById('score');
+//code below to try adding sound when answer is correct/
+let mySound = new Audio('../../magicsound.mp3')
+
 
 let questionNumber = 0;
 let scoreAmount = 0
@@ -139,6 +141,8 @@ function checkAnswer(answerNumber) {
   if (answerNumber === correctAnswer) {
     score.innerText = scoreAmount;
     alert('well done! that is correct')
+    //code below to try adding sound when answer is correct//
+    mySound.play()
   } else {
     alert(`You weren't right this time. Keep trying!`);
 }
