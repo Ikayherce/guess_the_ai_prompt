@@ -10,7 +10,6 @@ let correctSound = new Audio('../../magicsound.mp3')
 let incorrectSound = new Audio('../../failsound.mp3 ')
 
 
-
 let questionNumber = 0;
 let scoreAmount = 0
 let incorrectGuesses = 0; 
@@ -151,30 +150,18 @@ function checkAnswer(answerNumber) {
   //audio effect for correct sound
     correctSound.play();
   } else {
-  //update incorrect guess tally
-    incorrectGuessesDisplay.innerText = incorrectGuesses;
-  //feedback to the user that the answer is wrong
-    alert(`You weren't right this time. Keep trying!`);
-  //audio effect for incorrect answer
-    incorrectSound.play();
-
-
-    
+  //if incorrect incorrect increment incorrect guesses
+  incorrectGuesses++;
+  incorrectGuessesDisplay.innerText = incorrectGuesses; 
+  //alert for incorrect answer
+  alert(`You weren't right this time. Keep trying!`);
+  //audio effect for incorrect sound
+  incorrectSound.play();
 }
-   // after we increment the questionNumber
-  questionNumber ++;
-  // we check if it is the end of the quiz ( have we run out of questions)
-  if (questionNumber === quizLength) {
-    alert('end of quiz')
-    // put a end of quiz and score thing here
-  } else {
-    // if not we load the next question
-    loadQuestion(questionNumber);
-    loadAnswers(questionNumber);
-  }
-}
+
 function startQuiz() {
   loadQuestion(questionNumber);
   loadAnswers(questionNumber);
 }
-startQuiz()
+}
+startQuiz();
