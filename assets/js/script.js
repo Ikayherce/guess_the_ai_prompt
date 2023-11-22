@@ -11,14 +11,14 @@ let scoreAmount = 0
 const questions = [
 
   {
-    "question": "Question 1",
+    "image": '../assets/images/question1.png',
     "answers": [
       "Capybara flying", "Capybara dreams of flying like a bird", "Capybara chases birds"
     ],
     "correct": 1
   },
   {
-    "question": "Question 2",
+    "image": "../assets/images/question2.png",
     "answers": [
       "rat is coding", "rat creates a dating app profile", "rat plays sims on the computer"
     ],
@@ -124,6 +124,7 @@ const quizLength = questions.length;
 function loadQuestion(questionNumber) {
   question.innerText = questions[questionNumber].question;
 }
+
 function loadAnswers(questionNumber) {
   answer1.innerText = questions[questionNumber].answers[0];
   answer2.innerText = questions[questionNumber].answers[1];
