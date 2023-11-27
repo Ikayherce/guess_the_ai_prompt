@@ -12,14 +12,67 @@ You can look at this project by clicking on the deployed link: https://ikayherce
 ### -Existing features
 ### -Testing
 ### -Validator testing
+### -Unfixed Bugs
+### -Development and deployment
+### -Credits
+ 
+### -Description 
+### -User demographic 
+### -Features
+#### 15 questions
+#### Score and Incorrect Answers
+#### Feedback to user in the form of sound
+#### Modal window and modal messages
+#### Design
+## Design
+### Choice of color palette 
+Pastels and pink are trendy and appeal to the demographic who dominates in cat cafés. That is why I chose a bold but still soft pink-salmon shade and a cream shade combined  with dark brown text to achieve a good contrast. 
+I used https://mycolor.space/ for inspiration and experimented until I found the right combination. 
+#### Combinations suggested by https://mycolor.space/ 
+ ![color palette 1 suggested by mycolor.space](assets/readmeimages/colorpalette1.png)
+ ![color palette 2 suggested by mycolor.space](assets/readmeimages/colorpalette2.png)
+#### Final combination of my choice
+ ![final color palette of my choice](assets/readmeimages/colorpalettefinal.png)
+### Choice of font
+I chose 'Tilt Neon' (sans-serif) as the only font for a playful, yet sleek look to the website.  
+
+
+ 
+
+### -Initial planning
+### -Existing features
+### -Testing
+#### - Manual testing 
+* Questions load correctly when a question is answered.
+* Sound for incorrect and correct answers load properly.
+* Styles load correctly, including the change of color in button when the cursor is hovering. 
+* Images load properly. 
+* Score for correct and incorrect answers update properly.
+* Modal window and correct modal message (according to score) appear when game is finished.
+* Upon clicking a button on the modal window user is directed either to the start of the game (if they choose to play again) or google (if they choose to finish playing). 
+
+
+#### -Validator testing
  ![screenshot of HTML validator](assets/readmeimages/HTMLvalidated.png)
  ![screenshot of CSS validator](assets/readmeimages/CSSvalidated.png)
  ![screenshot of lighthouse report](assets/readmeimages/lighthouse.png) 
+
 ### -Unfixed Bugs
 
 When you inspect the website on developer tools the button hover doesn't work properly. It isn't a problem otherwise on either IDE link or deployed github page. 
 
 ### -Development and deployment
+
+This is what the process has looked like:
+
+1- Creation of empty repository in Github using Code Institute's repository template.  
+
+2- Use of git add and git commit with message in the process of creating my code on Gitpod.
+
+3- Git push to push the local git up to Github. 
+
+4- Deployment from the Github repository  https://ikayherce.github.io/guess_the_ai_prompt/ . 
+
 ### -Credits
 #### Dalle 3 
 The images displayed in the quiz have been made with Dalle3. 
