@@ -23,20 +23,14 @@ You can look at this project by clicking on the deployed link: https://ikayherce
 #### Score and Incorrect Answers
 #### Feedback to user in the form of sound
 #### Modal window and modal messages
-#### Design
-## Design
-### Choice of color palette 
-Pastels and pink are trendy and appeal to the demographic who dominates in cat cafés. That is why I chose a bold but still soft pink-salmon shade and a cream shade combined  with dark brown text to achieve a good contrast. 
-I used https://mycolor.space/ for inspiration and experimented until I found the right combination. 
-#### Combinations suggested by https://mycolor.space/ 
- ![color palette 1 suggested by mycolor.space](assets/readmeimages/colorpalette1.png)
- ![color palette 2 suggested by mycolor.space](assets/readmeimages/colorpalette2.png)
-#### Final combination of my choice
- ![final color palette of my choice](assets/readmeimages/colorpalettefinal.png)
-### Choice of font
-I chose 'Tilt Neon' (sans-serif) as the only font for a playful, yet sleek look to the website.  
 
+### Design
+#### Choice of color palette 
+I wanted something colorful and trendy for the background, but at the same time gentle to the eye and not too distracting, since the images are supposed to be the centre of attention. That's why I went with a pastel blue, pink, purple gradient and a white font. The color of the button changes while hovering, but in colors included in the base of the gradient.
 
+The background color with gradient effect was made with the following resource: https://cssgradient.io/
+
+#### Choice of font 
  
 
 ### -Initial planning
@@ -88,9 +82,6 @@ https://noaheakin.medium.com/adding-sound-to-your-js-web-app-f6a0ca728984
  ![screenshot of conversation with chat GPT](assets/readmeimages/chatgpthelp1.png)
  ![screenshot of conversation with chat GPT](assets/readmeimages/chatgpthelp2.png)
  ![screenshot of conversation with chat GPT](assets/readmeimages/chatgpthelp3.png)
-
-#### CSS gradient 
-The background color with gradient effect was made with the following resource: https://cssgradient.io/
 
 #### Cursor image  
 cursor code: https://blog.logrocket.com/creating-custom-mouse-cursor-css/
