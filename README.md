@@ -16,13 +16,27 @@ You can look at this project by clicking on the deployed link: https://ikayherce
 ### -Development and deployment
 ### -Credits
  
-### -Description 
-### -User demographic 
-### -Features
+###  Description 
+###  User demographic 
+###  Features
+### Initial planning
+My initial planning consisted on a very simple quizz structure. 
+
+### Existing features
 #### 15 questions
+Basic quizz structure with 15 questions
+
 #### Score and Incorrect Answers
-#### Feedback to user in the form of sound
-#### Modal window and modal messages
+Function that keeps track of score and incorrect guesses. 
+
+#### Feedback to user 
+Feedback for correct and incorrect answers in form of audio.
+Modal message at the end depending on user score. 
+
+#### Modal window and modal messages 
+Modal window at the end of game with two buttons: one refreshing the page to start again and one to stop playing, which directs to google. 
+
+
 
 ### Design
 #### Choice of color palette 
@@ -33,10 +47,9 @@ The background color with gradient effect was made with the following resource: 
 #### Choice of font 
  
 
-### -Initial planning
-### -Existing features
-### -Testing
-#### - Manual testing 
+
+### Testing
+#### Manual testing 
 * Questions load correctly when a question is answered.
 * Sound for incorrect and correct answers load properly.
 * Styles load correctly, including the change of color in button when the cursor is hovering. 
@@ -46,16 +59,16 @@ The background color with gradient effect was made with the following resource: 
 * Upon clicking a button on the modal window user is directed either to the start of the game (if they choose to play again) or google (if they choose to finish playing). 
 
 
-#### -Validator testing
+#### Validator testing
  ![screenshot of HTML validator](assets/readmeimages/HTMLvalidated.png)
  ![screenshot of CSS validator](assets/readmeimages/CSSvalidated.png)
  ![screenshot of lighthouse report](assets/readmeimages/lighthouse.png) 
 
-### -Unfixed Bugs
+### Unfixed Bugs
 
 When you inspect the website on developer tools the button hover doesn't work properly. It isn't a problem otherwise on either IDE link or deployed github page. 
 
-### -Development and deployment
+### Development and deployment
 
 This is what the process has looked like:
 
@@ -67,7 +80,7 @@ This is what the process has looked like:
 
 4- Deployment from the Github repository  https://ikayherce.github.io/guess_the_ai_prompt/ . 
 
-### -Credits
+### Credits
 #### Dalle 3 
 The images displayed in the quiz have been made with Dalle3. 
 
