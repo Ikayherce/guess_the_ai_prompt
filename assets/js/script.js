@@ -10,8 +10,8 @@ const modal = document.getElementById("myModal");
 const span = document.getElementsByClassName("close")[0];
 const modalMessage = document.getElementById("modalMessage");
 // move sound into a assets/sound folder
-let correctSound = new Audio('../../magicsound.mp3');
-let incorrectSound = new Audio('../../failsound.mp3 ');
+let correctSound = new Audio('/assets/sound/magicsound.mp3');
+let incorrectSound = new Audio('/assets/sound/failsound.mp3 ');
 let questionNumber = 0;
 let scoreAmount = 0;
 let incorrectGuesses = 0; 
