@@ -135,6 +135,11 @@ function loadAnswers(questionNumber) {
 function checkAnswer(answerNumber) {
   // we check what the correct answer is for this question
   let correctAnswer = questions[questionNumber].correct;
+
+  // Create new audio objects for each play
+  let correctSound = new Audio('assets/sound/magicsound.mp3');
+  let incorrectSound = new Audio('assets/sound/failsound.mp3 ');
+
   if (answerNumber === correctAnswer) {
     // if correct we increment the score by 1
     scoreAmount++;
@@ -148,6 +153,19 @@ function checkAnswer(answerNumber) {
     // audio effect for incorrect sound
     incorrectSound.play();
   }
+
+  // after we increment the questionNumber
+  questionNumber++;
+
+  // we check if it is the end of the quiz ( have we run out of questions)
+  if (questionNumber === quizLength) {
+    // ... (rest of your code)
+  } else {
+    // if not we load the next question
+    loadQuestion(questionNumber);
+    loadAnswers(questionNumber);
+  }
+}
   // after we increment the questionNumber
   questionNumber ++;
   // we check if it is the end of the quiz ( have we run out of questions)
