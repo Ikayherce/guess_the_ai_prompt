@@ -18,7 +18,7 @@ You can look at this project by clicking on the deployed link: https://ikayherce
  
 ###  Description 
 Guess the AI prompt is a quiz where the questions are AI generated images, and the user needs to guess what the prompt for the artwork is, picking from one of the options provided below the image.
-It is not only fun to solve each question by guessing what the prompt was, but also discovering the answers that are at times very surprising. Discovering how AI processes human concepts and ideas is in other words half the fun of this game. 
+It is not only fun to solve each question by guessing what the prompt is, but also discovering the correct answers that are at times very surprising. Discovering how AI processes human concepts and ideas is in other words half the fun of this game. 
 
 ###  User demographic 
 Any internet user who likes riddles and challenging their imagination can play "Guess the AI prompt". However this game might appeal especially to people who are interested in making AI art themselves, and even get inspiration from the images provided. 
@@ -27,7 +27,7 @@ This game can unfortunately at this stage not be played by the visually impaired
 
 ###  Features
 ### Initial planning
-My initial planning consisted on a  simple quizz structure with a question that would be an image and answers to choose from below. I made a simple drawing of it on paper.
+My initial planning consisted on a  simple quizz structure with a question that would be an image and answers to choose from below. I made a simple drawing of it on paper and as I tested it I added features, like the sound and the modal window. 
  I wanted it to be playful, cheerful and provide feedback to the user to provide interactivity. 
 
 ### Existing features
@@ -38,6 +38,7 @@ Basic quizz structure with 15 questions
 
 #### Score and Incorrect Answers
 Function that keeps track of score and incorrect guesses. 
+
  !['image of the game in phone screen' image](assets/readmeimages/phonescreen1.png)
  !['image of the game in phone screen' image](assets/readmeimages/phonescreen2.png)
 
@@ -50,7 +51,7 @@ Modal message at the end depending on user score.
 Modal window at the end of game with two buttons: one refreshing the page to start again and one to stop playing, which directs to google. 
 
 ### Design
-The basic design of the game is simple and has been chosen to be as clear as user friendly as possible. The image is in the center below the main header, and below the image are the answers to choose from. Below the answers are the score and incorrect answers. 
+The basic design of the game is simple and has been chosen to be as clear and as user friendly as possible. The image is in the center below the main header, and below the image are the answers to choose from. Below the answers are the score and incorrect answers. 
 
 #### Choice of color palette 
 I wanted something colorful and trendy for the background, but at the same time gentle to the eye and not too distracting, since the images are supposed to be the centre of attention. That's why I went with a pastel blue, pink, purple gradient and a white font. The color of the button changes while hovering, but in colors included in the base of the gradient.
@@ -114,5 +115,5 @@ cursor code: https://blog.logrocket.com/creating-custom-mouse-cursor-css/
 https://icons8.com/icons/set/cursor 
 
 #### Modal window
- I started off by providing the user with feedback using alert messages. My mentor pointed out this was not the most effective way of giving feedback. Since the audio effects already provided feedback, I replaced the alert at the end of the quiz for a modal window and different modal messages depending on the score, as well as a message for the user to try the game again (button click refreshes page and directs user to the start again) or finish playing (button click directs user to google) 
+ I started off by providing the user with feedback using alert messages. My mentor pointed out this was not the most effective way of giving feedback. Since the audio effects already provided feedback for incorrect and correct answers, I replaced the alert at the end of the quiz for a modal window and different modal messages depending on the score, as well as a message for the user to try the game again (button click refreshes page and directs user to the start again) or finish playing (button click directs user to google) 
  The code for the modal window was taken from the following link and then adapted to my project https://www.w3schools.com/howto/howto_css_modals.asp 
