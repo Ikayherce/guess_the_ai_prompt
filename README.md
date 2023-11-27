@@ -27,3 +27,4 @@ CSS gradient background made with: https://cssgradient.io/
 cursor image found in: 
 cursor code: https://blog.logrocket.com/creating-custom-mouse-cursor-css/
 https://icons8.com/icons/set/cursor 
+modal window: https://www.w3schools.com/howto/howto_css_modals.asp 

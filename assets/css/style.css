@@ -52,22 +52,22 @@ button:hover {
 }
 /* Modal Content/Box */
 .modal-content {
- background-color: #fefefe;
+ background-color: rgba(238,174,202,1);
  margin: 15% auto; /* 15% from the top and centered */
  padding: 20px;
- border: 1px solid #888;
+ border: 2px solid #ffffff;
  width: 80%; /* Could be more or less, depending on screen size */
 }
 /* The Close Button */
 .close {
- color: #aaa;
+ color: rgba(238,174,202,1);
  float: right;
  font-size: 28px;
  font-weight: bold;
 }
 .close:hover,
 .close:focus {
- color: black;
+ color: #ffffff;
  text-decoration: none;
  cursor: url('../../icons8-magic-wand-64.png'), auto;
 }
