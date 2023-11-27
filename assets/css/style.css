@@ -1,46 +1,80 @@
- body {
-   font-family: 'Poppins', sans-serif;
-   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(220,177,208,1) 20%, rgba(191,181,218,1) 52%, rgba(192,186,230,1) 57%, rgba(148,187,233,1) 100%);
-   color: #ffffff;
-   cursor: url('../../icons8-wand-64.2.png'), auto;
-   max-width: 100%;
-   max-height: 100%; 
- }
-
-
- .container {
-   text-align: center;
-   justify-content: space-evenly;
-   list-style-type: none;
-   padding: 50px;
-   cursor: url('../../icons8-wand-64.2.png'), auto;
- }
-
- button {
-   border: 2px solid #ffffff;
-   margin: 8px 0;
-   border-radius: 2px;
-   padding: 12px 20px;
-   font-family: 'Poppins', sans-serif;
-   background-color:rgba(238,174,202,1);
-   color:#ffffff;
-   cursor: url('../../icons8-wand-64.2.png'), auto;
-   align-items:center;
-   justify-content:center;
- }
-
- button:hover {
-   background-color:rgba(192,186,230,1);
-   transition: 0.2s;
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(220,177,208,1) 20%, rgba(191,181,218,1) 52%, rgba(192,186,230,1) 57%, rgba(148,187,233,1) 100%);
+  color: #ffffff;
+  cursor: url('../../icons8-wand-64.2.png'), auto;
+  max-width: 100%;
+  max-height: 100%; 
 }
-  img {
-    padding: 20px;
-    display:flex;
-    margin: auto;
+.container {
+  text-align: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 50px;
+  cursor: url('../../icons8-wand-64.2.png'), auto;
 }
-
+button {
+  border: 2px solid #ffffff;
+  margin: 8px 0;
+  border-radius: 2px;
+  padding: 12px 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color:rgba(238,174,202,1);
+  color:#ffffff;
+  cursor: url('../../icons8-wand-64.2.png'), auto;
+  align-items:center;
+  justify-content:center;
+}
+button:hover {
+  background-color:rgba(192,186,230,1);
+  transition: 0.2s;
+}
+ img {
+   padding: 20px;
+   display:flex;
+   margin: auto;
+}
+#modalMessage {
+ color: black;
+}
+/* The Modal (background) */
+.modal {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+ background-color: #fefefe;
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #888;
+ width: 80%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
 /* Media Queries */ 
-
-@media (max-width: 414px) {
- 
+@media (max-width: 450px) {
+ img {
+   padding: 0;
+   width: 100%;
+ }
 }
