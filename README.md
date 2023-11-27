@@ -8,6 +8,8 @@ You can look at this project by clicking on the deployed link: https://ikayherce
 ### -Description 
 ### -User demographic 
 ### -Features
+### -Technologies used
+### -Design
 ### -Initial planning
 ### -Existing features
 ### -Testing
@@ -49,6 +51,10 @@ Modal message at the end depending on user score.
 
 #### Modal window and modal messages 
 Modal window at the end of game with two buttons: one refreshing the page to start again and one to stop playing, which directs to google. 
+
+### Technologies used
+
+The quiz "Guess the AI prompt" has been built with html, CSS and Javascript. The IDE used has been Gitpod and the repository has been hosted in the platform Github.
 
 ### Design
 The basic design of the game is simple and has been chosen to be as clear and as user friendly as possible. The image is in the center below the main header, and below the image are the answers to choose from. Below the answers are the score and incorrect answers. 
@@ -111,8 +117,8 @@ https://noaheakin.medium.com/adding-sound-to-your-js-web-app-f6a0ca728984
  ![screenshot of conversation with chat GPT](assets/readmeimages/chatgpthelp3.png)
 
 #### Cursor image  
-cursor code: https://blog.logrocket.com/creating-custom-mouse-cursor-css/
-https://icons8.com/icons/set/cursor 
+I found the code for the cursor here: https://blog.logrocket.com/creating-custom-mouse-cursor-css/
+I found the cursor image here: https://icons8.com/icons/set/cursor 
 
 #### Modal window
  I started off by providing the user with feedback using alert messages. My mentor pointed out this was not the most effective way of giving feedback. Since the audio effects already provided feedback for incorrect and correct answers, I replaced the alert at the end of the quiz for a modal window and different modal messages depending on the score, as well as a message for the user to try the game again (button click refreshes page and directs user to the start again) or finish playing (button click directs user to google) 
