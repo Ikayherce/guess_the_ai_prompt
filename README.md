@@ -54,7 +54,7 @@ Modal window at the end of game with two buttons: one refreshing the page to sta
 
 ### Technologies used
 
-The quiz "Guess the AI prompt" has been built with html, CSS and Javascript. The IDE used has been Gitpod and the repository has been hosted in the platform Github.
+The quiz "Guess the AI prompt" has been built with HTML, CSS and Javascript. The IDE used has been Gitpod and the repository has been hosted in the platform Github.
 
 ### Design
 The basic design of the game is simple and has been chosen to be as clear and as user friendly as possible. The image is in the center below the main header, and below the image are the answers to choose from. Below the answers are the score and incorrect answers. 
@@ -87,7 +87,7 @@ On laptop devices the cursor image is a colorful pastel wand. I chose it to add 
  ![screenshot of lighthouse report](assets/readmeimages/lighthouse.png) 
 
 ### Unfixed Bugs
-When you inspect the website on developer tools the button hover doesn't work properly. It isn't a problem otherwise on either IDE link or deployed github page. 
+When you inspect the website on developer tools the button hover doesn't work properly. It isn't otherwise a problem either on the IDE link or the deployed github page. 
 
 ### Development and deployment
 This is what the process has looked like:
@@ -102,7 +102,7 @@ This is what the process has looked like:
 
 ### Credits
 #### Dalle 3 
-The images displayed in the quiz have been made with Dalle3. 
+The images displayed in the quiz have been made with Dalle 3. 
 
 #### Help used to code the audio effect
 
