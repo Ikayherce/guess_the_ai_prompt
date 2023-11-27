@@ -154,15 +154,15 @@ function checkAnswer(answerNumber) {
   if (questionNumber === quizLength) {
     // do not use alert - maybe delivery message and ask if they want to play again
     // if so then window.location.reload()
-    let scoreMessage = "Well, you are not very good at this!";
+    let scoreMessage = "I'm not gonna lie, it didn't go great.";
     if (scoreAmount > 4) {
-      scoreMessage = "Not bad, room for improvement.";
+      scoreMessage = "Not bad! But you can do better.";
     }
     if (scoreAmount > 9) {
-      scoreMessage = "Very good."
+      scoreMessage = "Well done! I'm impressed."
     }
     if (scoreAmount > 13 ) {
-      scoreMessage = "Google, is that you?"
+      scoreMessage = "Wow, just wow. You should get a job as an AI prompt guesser."
     }
     modalMessage.innerText = scoreMessage + " Would like like to try again?";
     modal.style.display = "block";
