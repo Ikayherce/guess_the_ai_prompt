@@ -121,7 +121,7 @@ const questions = [
     ],
     "correct": 1
   }
-]
+];
 const quizLength = questions.length;
 function loadQuestion(questionNumber) {
   //question.innerText = questions[questionNumber].question;
