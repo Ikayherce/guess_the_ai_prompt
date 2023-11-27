@@ -1,5 +1,5 @@
 # Guess the AI prompt
-This is a quiz game that consists on guessing the prompt that has been fed to the AI (Dalle 3) to produce the image displayed. The goal is to entertain the user and make them use their imagination. 
+This is a quiz game that consists on guessing the prompt that has been fed to the AI (Dalle 3) to produce the image displayed. The goal is to entertain the user and invite them to use their imagination. 
 You can look at this project by clicking on the deployed link: https://ikayherce.github.io/guess_the_ai_prompt/
 
  !['am I responsive' image](assets/readmeimages/amiresponsive.png)
@@ -17,7 +17,14 @@ You can look at this project by clicking on the deployed link: https://ikayherce
 ### -Credits
  
 ###  Description 
+Guess the AI prompt is a quiz where the questions are AI generated images, and the user needs to guess what the prompt for the artwork is, picking from one of the options provided below the image.
+It is not only fun to solve each question by guessing what the prompt was, but also discovering the answers that are at times very surprising. Discovering how AI processes human concepts and ideas is in other words half the fun of this game. 
+
 ###  User demographic 
+Any internet user who likes riddles and challenging their imagination can play "Guess the AI prompt". However this game might appeal especially to people who are interested in making AI art themselves, and even get inspiration from the images provided. 
+
+This game can unfortunately at this stage not be played by the visually impaired, since the user relies on their sight to guess the answers. I tried to think of a way to adapt the game by using alternative texts but I wasn't satisfied with the result. It could however probably be adapted in some way that I haven't had the time to figure out in the frame of this project. 
+
 ###  Features
 ### Initial planning
 My initial planning consisted on a  simple quizz structure with a question that would be an image and answers to choose from below. I made a simple drawing of it on paper.
@@ -26,18 +33,25 @@ My initial planning consisted on a  simple quizz structure with a question that 
 ### Existing features
 #### 15 questions
 Basic quizz structure with 15 questions
+ !['image of the first question, laptop size screen' image](assets/readmeimages/largescreen.png)
+!['image of the game in tablet screen' image](assets/readmeimages/tabletsize.png)
 
 #### Score and Incorrect Answers
 Function that keeps track of score and incorrect guesses. 
+ !['image of the game in phone screen' image](assets/readmeimages/phonescreen1.png)
+ !['image of the game in phone screen' image](assets/readmeimages/phonescreen2.png)
 
 #### Feedback to user 
 Feedback for correct and incorrect answers in form of audio.
 Modal message at the end depending on user score. 
+!['image of modal message in large screen at the end of the game' image](assets/readmeimages/modalmessagelargescreen.png)
 
 #### Modal window and modal messages 
 Modal window at the end of game with two buttons: one refreshing the page to start again and one to stop playing, which directs to google. 
 
 ### Design
+The basic design of the game is simple and has been chosen to be as clear as user friendly as possible. The image is in the center below the main header, and below the image are the answers to choose from. Below the answers are the score and incorrect answers. 
+
 #### Choice of color palette 
 I wanted something colorful and trendy for the background, but at the same time gentle to the eye and not too distracting, since the images are supposed to be the centre of attention. That's why I went with a pastel blue, pink, purple gradient and a white font. The color of the button changes while hovering, but in colors included in the base of the gradient.
 
@@ -47,10 +61,10 @@ The background color with gradient effect was made with the following resource: 
 I chose 'Poppins', sans-serif; for a simple but playful look that would match the color palette and overall look of the page.
 
 #### Cursor image
-On laptop devices the cursor image is a colorful pastel wand. I chose it to add playfulness and a more refined overall look. The sound choice when the user answer is correct matches the wand cursor, since the chime sound reminds of a magic trick. 
+On laptop devices the cursor image is a colorful pastel wand. I chose it to add playfulness and a more refined overall look. The sound choice when the user answer is correct matches the wand cursor, since the chime sound reminds of a magic trick.   
 
 ### Testing
-#### Manual testing 
+#### Manual testing  
 * Questions load correctly when a question is answered.
 * Sound for incorrect and correct answers load properly.
 * Styles load correctly, including the change of color in button when the cursor is hovering. 
@@ -66,11 +80,9 @@ On laptop devices the cursor image is a colorful pastel wand. I chose it to add 
  ![screenshot of lighthouse report](assets/readmeimages/lighthouse.png) 
 
 ### Unfixed Bugs
-
 When you inspect the website on developer tools the button hover doesn't work properly. It isn't a problem otherwise on either IDE link or deployed github page. 
 
 ### Development and deployment
-
 This is what the process has looked like:
 
 1- Creation of empty repository in Github using Code Institute's repository template.  
