@@ -20,7 +20,8 @@ You can look at this project by clicking on the deployed link: https://ikayherce
 ###  User demographic 
 ###  Features
 ### Initial planning
-My initial planning consisted on a very simple quizz structure. 
+My initial planning consisted on a  simple quizz structure with a question that would be an image and answers to choose from below. I made a simple drawing of it on paper.
+ I wanted it to be playful, cheerful and provide feedback to the user to provide interactivity. 
 
 ### Existing features
 #### 15 questions
@@ -36,8 +37,6 @@ Modal message at the end depending on user score.
 #### Modal window and modal messages 
 Modal window at the end of game with two buttons: one refreshing the page to start again and one to stop playing, which directs to google. 
 
-
-
 ### Design
 #### Choice of color palette 
 I wanted something colorful and trendy for the background, but at the same time gentle to the eye and not too distracting, since the images are supposed to be the centre of attention. That's why I went with a pastel blue, pink, purple gradient and a white font. The color of the button changes while hovering, but in colors included in the base of the gradient.
@@ -45,8 +44,10 @@ I wanted something colorful and trendy for the background, but at the same time 
 The background color with gradient effect was made with the following resource: https://cssgradient.io/
 
 #### Choice of font 
- 
+I chose 'Poppins', sans-serif; for a simple but playful look that would match the color palette and overall look of the page.
 
+#### Cursor image
+On laptop devices the cursor image is a colorful pastel wand. I chose it to add playfulness and a more refined overall look. The sound choice when the user answer is correct matches the wand cursor, since the chime sound reminds of a magic trick. 
 
 ### Testing
 #### Manual testing 
