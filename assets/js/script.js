@@ -164,17 +164,17 @@ function checkAnswer(answerNumber) {
       scoreMessage = "Not bad! But you can do better.";
     }
     if (scoreAmount > 9) {
-      scoreMessage = "Well done! I'm impressed."
+      scoreMessage = "Well done! I'm impressed.";
     }
     if (scoreAmount > 13 ) {
-      scoreMessage = "Wow, just wow. You should get a job as an AI prompt guesser."
+      scoreMessage = "Wow, just wow. You should get a job as an AI prompt guesser.";
     }
     modalMessage.innerText = scoreMessage + " Would like like to try again?";
     modal.style.display = "block";
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
       modal.style.display = "none";
-    }
+    };
     // put a end of quiz and score thing here
   } else {
     // if not we load the next question
