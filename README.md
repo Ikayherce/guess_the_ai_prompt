@@ -82,9 +82,28 @@ On laptop devices the cursor image is a colorful pastel wand. I chose it to add 
 
 
 #### Validator testing
- ![screenshot of HTML validator](assets/readmeimages/HTMLvalidated.png)
- ![screenshot of CSS validator](assets/readmeimages/CSSvalidated.png)
+
+###### HTML
+ ![screenshot of HTML validator](assets/readmeimages/htmlvalidated.png)
+
+ ###### CSS
+ ![screenshot of CSS validator](assets/readmeimages/cssvalidated.png)
+
+ ###### Javascript - JS Hint
+ !['screenshot of JS Hint report'](assets/readmeimages/jshint1.png) 
+ !['screenshot of JS Hint report'](assets/readmeimages/jshint2.png) 
+ !['screenshot of JS Hint report'](assets/readmeimages/jshint3.png) 
+
+ ###### Lighthouse
  ![screenshot of lighthouse report](assets/readmeimages/lighthouse.png) 
+ 
+ ###### Wave
+ 
+ This is the result I got when my font was white and the contrast color wasn't sufficient.
+  !['screenshot of wave report before changing font color'](assets/readmeimages/wavebefore.png) 
+
+  This is the result I got after I changed the font color to dark purple for better contrast.
+  !['screenshot of wave report after changing font color'](assets/readmeimages/waveafter.png) 
 
 ### Unfixed Bugs
 When you inspect the website on developer tools the button hover doesn't work properly. It isn't otherwise a problem either on the IDE link or the deployed github page. 
