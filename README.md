@@ -125,16 +125,20 @@ This is what the process has looked like:
 The images displayed in the quiz have been made with Dalle 3. 
 
 #### Help used to code the audio effect
-
 * I used the following resource to get started coding the audio effect for correct and incorrect answers:
 https://noaheakin.medium.com/adding-sound-to-your-js-web-app-f6a0ca728984
 
 * The audio files were downloaded from https://uppbeat.io/browse/sfx/fail
 
-* Finally, I got some help from chat GPT in order to make the sound play even when the previous sound iteration isn't finished. I did this since I realised it affected user experience when the quiz is played fast. After googling for a while without finding the right solution chat GPT suggested creating separate objects for each audio file in the checkAnswer function. See screenshots below. 
+* Finally, I got some help from chat GPT in order to make the sound play even when the previous sound iteration isn't finished. I did this since I realised it affected user experience when the quiz is played fast. After googling for a while without finding the right solution I sent my code to chat GPT and it suggested creating separate objects for each audio file in the checkAnswer function. See screenshots below. 
  ![screenshot of conversation with chat GPT](assets/readmeimages/chatgpthelp1.png)
  ![screenshot of conversation with chat GPT](assets/readmeimages/chatgpthelp2.png)
  ![screenshot of conversation with chat GPT](assets/readmeimages/chatgpthelp3.png)
+
+ In other words, and for clarity's sake, the only code provided by Chat GPT in my project are these two lines of code:
+
+  let correctSound = new Audio('assets/sound/magicsound.mp3');
+  let incorrectSound = new Audio('assets/sound/failsound.mp3 ');
 
 #### Cursor image  
 I found the code for the cursor here: https://blog.logrocket.com/creating-custom-mouse-cursor-css/

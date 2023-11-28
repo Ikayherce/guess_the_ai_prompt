@@ -132,7 +132,8 @@ function loadAnswers(questionNumber) {
 function checkAnswer(answerNumber) {
   let correctAnswer = questions[questionNumber].correct;
 
-  //create objects for each audio file so that they play even when previous iteration is not finished. the TWO lines of code below are the ones that I got from Chat GPT.
+  //create objects for each audio file so that they play even when previous iteration is not finished. 
+  //the TWO lines of code below are the ones that I got from Chat GPT.
   let correctSound = new Audio('assets/sound/magicsound.mp3');
   let incorrectSound = new Audio('assets/sound/failsound.mp3 ');
   
