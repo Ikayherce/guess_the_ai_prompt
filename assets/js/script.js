@@ -1,10 +1,10 @@
 //getters
 const question = document.getElementById('question');
 const questionImage = document.getElementById('question');
-const answer1 = document.getElementById('answer1');
+const answer1 = document.getElementById('answer1'); 
 const answer2 = document.getElementById('answer2');
 const answer3 = document.getElementById('answer3');
-const score = document.getElementById('score');
+const score = document.getElementById('score'); 
 const incorrectGuessesDisplay = document.getElementById('incorrect'); 
 const modal = document.getElementById("myModal");
 const span = document.getElementsByClassName("close")[0];
