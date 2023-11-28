@@ -93,7 +93,7 @@ On laptop devices the cursor image is a colorful pastel wand. I chose it to add 
 
  ![screenshot of Javascript validator](assets/readmeimages/jshint.png)
 
- Note: the JSHint validator points out that there are unused variables because they are triggered when someone clicks a button and that part of the code is in the HTML file, which the JSHint validator doesn't examine. All the variables named in the report are in other words used, just not called in the JS file. 
+ **Note: the JSHint validator points out that there are unused variables because they are triggered when someone clicks a button and that part of the code is in the HTML file, which the JSHint validator doesn't examine. All the variables named in the report are in other words used, just not called in the JS file.** 
 
  ###### Lighthouse
  ![screenshot of lighthouse report](assets/readmeimages/lighthouse.png) 
@@ -135,9 +135,10 @@ https://noaheakin.medium.com/adding-sound-to-your-js-web-app-f6a0ca728984
  ![screenshot of conversation with chat GPT](assets/readmeimages/chatgpthelp2.png)
  ![screenshot of conversation with chat GPT](assets/readmeimages/chatgpthelp3.png)
 
- In other words, and for clarity's sake, the only code provided by Chat GPT in my project are these two lines of code:
+ **In other words, and for clarity's sake, the only code provided by Chat GPT in my project are these two lines of code below:**
 
   let correctSound = new Audio('assets/sound/magicsound.mp3');
+
   let incorrectSound = new Audio('assets/sound/failsound.mp3 ');
 
 #### Cursor image  
