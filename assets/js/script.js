@@ -1,4 +1,3 @@
-//getters
 const question = document.getElementById('question');
 const questionImage = document.getElementById('question');
 const answer1 = document.getElementById('answer1'); 
@@ -9,7 +8,6 @@ const incorrectGuessesDisplay = document.getElementById('incorrect');
 const modal = document.getElementById("myModal");
 const span = document.getElementsByClassName("close")[0];
 const modalMessage = document.getElementById("modalMessage");
-// move sound into a assets/sound folder
 let correctSound = new Audio('assets/sound/magicsound.mp3');
 let incorrectSound = new Audio('assets/sound/failsound.mp3 ');
 let questionNumber = 0;
@@ -124,7 +122,6 @@ const questions = [
 ];
 const quizLength = questions.length;
 function loadQuestion(questionNumber) {
-  //question.innerText = questions[questionNumber].question;
   questionImage.src = questions[questionNumber].image;
 }
 function loadAnswers(questionNumber) {
@@ -133,32 +130,24 @@ function loadAnswers(questionNumber) {
   answer3.innerText = questions[questionNumber].answers[2];
 }
 function checkAnswer(answerNumber) {
-  // we check what the correct answer is for this question
   let correctAnswer = questions[questionNumber].correct;
 
-  // Create new audio objects for each play
+  //create objects for each audio file so that they play even when previous iteration is not finished. the TWO lines of code below are the ones that I got from Chat GPT.
   let correctSound = new Audio('assets/sound/magicsound.mp3');
   let incorrectSound = new Audio('assets/sound/failsound.mp3 ');
   
   if (answerNumber === correctAnswer) {
-    // if correct we increment the score by 1
+   
     scoreAmount++;
     score.innerText = scoreAmount;
-    // audio effect for correct sound
     correctSound.play();
   } else {
-    // if incorrect, increment incorrect guesses
     incorrectGuesses++;
     incorrectGuessesDisplay.innerText = incorrectGuesses;
-    // audio effect for incorrect sound
     incorrectSound.play();
   }
-  // after we increment the questionNumber
   questionNumber ++;
-  // we check if it is the end of the quiz ( have we run out of questions)
   if (questionNumber === quizLength) {
-    // do not use alert - maybe delivery message and ask if they want to play again
-    // if so then window.location.reload()
     let scoreMessage = "I'm not gonna lie, it didn't go great.";
     if (scoreAmount > 4) {
       scoreMessage = "Not bad! But you can do better.";
@@ -171,13 +160,10 @@ function checkAnswer(answerNumber) {
     }
     modalMessage.innerText = scoreMessage + " Would like like to try again?";
     modal.style.display = "block";
-    // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
       modal.style.display = "none";
     };
-    // put a end of quiz and score thing here
   } else {
-    // if not we load the next question
     loadQuestion(questionNumber);
     loadAnswers(questionNumber);
   }
