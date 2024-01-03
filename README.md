@@ -48,9 +48,11 @@ Function that keeps track of score and incorrect guesses.
 Feedback for correct and incorrect answers in form of audio.
 Modal message at the end depending on user score. 
 !['image of modal message in large screen at the end of the game' image](assets/readmeimages/modalmessagelargescreen.png)
+!['image of modal goodbye message in large screen' image](assets/readmeimages/byemessage.png)
+
 
 #### Modal window and modal messages 
-Modal window at the end of game with two buttons: one refreshing the page to start again and one to stop playing. 
+Modal window at the end of game with two buttons: one refreshing the page to start again and one to stop playing.
 
 ### Technologies used
 The quiz "Guess the AI prompt" has been built with HTML, CSS and Javascript. The IDE used has been Gitpod and the repository has been hosted in the platform Github.
