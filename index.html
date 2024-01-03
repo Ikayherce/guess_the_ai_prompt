@@ -27,21 +27,30 @@
         <hr>
         <div>Score: <span id="score">0</span></div>
         <div>Incorrect guesses: <span id="incorrect">0</span></div>
-           <!-- add sound toggle to make audio optional  -->
+           <!-- add sound toggle to make audio optional  
         <label for="soundToggle">Enable Sound:</label>
-        <input type="checkbox" id="soundToggle" checked>
+        <input type="checkbox" id="soundToggle" checked>-->
         
 <!-- The Modal -->
 <div id="myModal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p id="modalMessage">Oh my</p>
+    <p id="modalMessage"></p>
     <button onclick="restartGame()">Restart Game</button>
-    <button onclick="gotoGoogle()">No, I've had enough!</button>
+    <button onclick="finishGame()">No, I've had enough!</button>
   </div>
 </div>
-      </div>
-      <script src="assets/js/script.js"></script>
+<!-- add modal for a goodbye message when user chooses to stop playing at the end of the round -->
+<div id="byeModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="byeMessage">Ok, see you next time!</p>
+  </div>
+</div>
+<!--New code ends here-->
+</div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>

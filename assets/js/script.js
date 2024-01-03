@@ -138,9 +138,9 @@ function checkAnswer(answerNumber) {
   let incorrectSound = new Audio('assets/sound/failsound.mp3 ');
 
   //add code to make sound optional 
-  const soundEnabled = document.getElementById('soundToggle').checked;
+  //const soundEnabled = document.getElementById('soundToggle').checked;
   //this if statement line too, wrapping the already existing function
-  if (SoundEnabled) {
+  //if (SoundEnabled) {
     if (answerNumber === correctAnswer) {
      scoreAmount++;
      score.innerText = scoreAmount;
@@ -150,7 +150,7 @@ function checkAnswer(answerNumber) {
      incorrectGuessesDisplay.innerText = incorrectGuesses;
      incorrectSound.play();
   }
-}
+//}
   questionNumber ++;
   if (questionNumber === quizLength) {
     let scoreMessage = "I'm not gonna lie, it didn't go great.";
@@ -176,9 +176,24 @@ function checkAnswer(answerNumber) {
 function restartGame() {
   window.location.reload();
 }
-function gotoGoogle() {
-  window.location.replace("https://www.google.com");
+
+  //add modal window with message "ok, see you next time"
+function finishGame() {
+  const byeModal = document.getElementById("byeModal");
+  const byeMessage = document.getElementById("byeMessage");
+
+  byeMessage.innerText = "Ok, see you next time";
+  byeModal.style.display = "block";
+  
+  const closeButtons = document.querySelectorAll(".close");
+  closeButtons.forEach(button => {
+    button.onclick = function() {
+      byeModal.style.display = "none";
+    };
+  });
 }
+//new code finishes here 
+
 function startQuiz() {
   loadQuestion(questionNumber);
   loadAnswers(questionNumber);
