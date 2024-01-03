@@ -136,17 +136,21 @@ function checkAnswer(answerNumber) {
   //the TWO lines of code below are the ones that I got from Chat GPT.
   let correctSound = new Audio('assets/sound/magicsound.mp3');
   let incorrectSound = new Audio('assets/sound/failsound.mp3 ');
-  
-  if (answerNumber === correctAnswer) {
-   
-    scoreAmount++;
-    score.innerText = scoreAmount;
-    correctSound.play();
-  } else {
-    incorrectGuesses++;
-    incorrectGuessesDisplay.innerText = incorrectGuesses;
-    incorrectSound.play();
+
+  //add code to make sound optional 
+  const soundEnabled = document.getElementById('soundToggle').checked;
+  //this if statement line too, wrapping the already existing function
+  if (SoundEnabled) {
+    if (answerNumber === correctAnswer) {
+     scoreAmount++;
+     score.innerText = scoreAmount;
+     correctSound.play();
+    } else {
+     incorrectGuesses++;
+     incorrectGuessesDisplay.innerText = incorrectGuesses;
+     incorrectSound.play();
   }
+}
   questionNumber ++;
   if (questionNumber === quizLength) {
     let scoreMessage = "I'm not gonna lie, it didn't go great.";
