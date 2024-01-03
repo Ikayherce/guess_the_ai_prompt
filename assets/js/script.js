@@ -15,6 +15,7 @@ let questionNumber = 0;
 let scoreAmount = 0;
 let incorrectGuesses = 0;
 let soundToggle = true;
+
 const questions = [
   {
     "image": 'assets/images/question1.png',
@@ -132,13 +133,14 @@ function loadAnswers(questionNumber) {
   answer2.innerText = questions[questionNumber].answers[1];
   answer3.innerText = questions[questionNumber].answers[2];
 }
-/** This function checks the answers and gives feedback to user*/
+
+/** This function loads the answers and gived feedback to the user*/
 function checkAnswer(answerNumber) {
   let correctAnswer = questions[questionNumber].correct;
   //create objects for each audio file so that they play even when previous iteration is not finished. 
   //the TWO lines of code below are the ones that I got from Chat GPT.
   let correctSound = new Audio('assets/sound/magicsound.mp3');
-  let incorrectSound = new Audio('assets/sound/failsound.mp3 '); 
+  let incorrectSound = new Audio('assets/sound/failsound.mp3 ');
 
     if (answerNumber === correctAnswer) {
      scoreAmount++;
@@ -181,7 +183,7 @@ function checkAnswer(answerNumber) {
 function restartGame() {
   window.location.reload();
 }
-  //add modal window with message "ok, see you next time"
+/** This function shows a goodbye message to user when they decide to stop playing after they answered all questions*/
 function finishGame() {
   const byeModal = document.getElementById("byeModal");
   const byeMessage = document.getElementById("byeMessage");
@@ -195,21 +197,22 @@ function finishGame() {
     };
   });
 }
-//new code finishes here 
+
+/**This function starts the quiz */
 function startQuiz() {
   loadQuestion(questionNumber);
   loadAnswers(questionNumber);
 }
+/** This function gives user the choice to have sound on or off */
 function toggleSound() {
   soundToggle = !soundToggle;
   if (soundToggle) {
     soundTog.style.backgroundColor = "green";
-    soundTog.innerText = "Enable Sound"
+    soundTog.innerText = "Disable Sound"
   }
   else {
     soundTog.style.backgroundColor = "red";
-    soundTog.innerText = "Disable Sound"
+    soundTog.innerText = "Enable Sound"
   }
 }
-
-startQuiz(); 
+startQuiz();
