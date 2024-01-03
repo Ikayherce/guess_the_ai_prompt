@@ -50,10 +50,9 @@ Modal message at the end depending on user score.
 !['image of modal message in large screen at the end of the game' image](assets/readmeimages/modalmessagelargescreen.png)
 
 #### Modal window and modal messages 
-Modal window at the end of game with two buttons: one refreshing the page to start again and one to stop playing, which directs to google. 
+Modal window at the end of game with two buttons: one refreshing the page to start again and one to stop playing. 
 
 ### Technologies used
-
 The quiz "Guess the AI prompt" has been built with HTML, CSS and Javascript. The IDE used has been Gitpod and the repository has been hosted in the platform Github.
 
 ### Design
@@ -78,7 +77,7 @@ On laptop devices the cursor image is a colorful pastel wand. I chose it to add 
 * Images load properly. 
 * Score for correct and incorrect answers update properly.
 * Modal window and correct modal message (according to score) appear when game is finished.
-* Upon clicking a button on the modal window user is directed either to the start of the game (if they choose to play again) or google (if they choose to finish playing). 
+* Upon clicking a button on the modal window user is directed to the start of the game (if they choose to play again) or a modal window with a goodbye message. 
 
 
 #### Validator testing
