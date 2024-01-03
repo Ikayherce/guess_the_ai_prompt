@@ -148,3 +148,6 @@ I found the cursor image here: https://icons8.com/icons/set/cursor
 #### Modal window
  I started off by providing the user with feedback using alert messages. My mentor pointed out this was not the most effective way of giving feedback. Since the audio effects already provided feedback for incorrect and correct answers, I replaced the alert at the end of the quiz for a modal window and different modal messages depending on the score, as well as a message for the user to try the game again (button click refreshes page and directs user to the start again) or finish playing (button click directs user to google) 
  The code for the modal window was taken from the following link and then adapted to my project https://www.w3schools.com/howto/howto_css_modals.asp 
+
+ #### Toggle switch for audio
+ https://www.w3schools.com/howto/howto_css_switch.asp
