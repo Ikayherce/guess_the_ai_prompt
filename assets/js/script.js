@@ -134,7 +134,7 @@ function loadAnswers(questionNumber) {
   answer3.innerText = questions[questionNumber].answers[2];
 }
 
-/** This function loads the answers and gived feedback to the user*/
+/** This function loads the answers and gives feedback to the user*/
 function checkAnswer(answerNumber) {
   let correctAnswer = questions[questionNumber].correct;
   //create objects for each audio file so that they play even when previous iteration is not finished. 
@@ -203,7 +203,7 @@ function startQuiz() {
   loadQuestion(questionNumber);
   loadAnswers(questionNumber);
 }
-/** This function gives user the choice to have sound on or off */
+/** This function displays sound toggle and gives the option to enable and disable sound */
 function toggleSound() {
   soundToggle = !soundToggle;
   if (soundToggle) {
